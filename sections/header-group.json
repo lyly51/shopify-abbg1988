@@ -1,0 +1,78 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        },
+        "32efb124-df95-4780-ac0e-653472afd0a2": {
+          "type": "announcement",
+          "settings": {
+            "text": "满199元，免除运费",
+            "link": ""
+          }
+        },
+        "5626b221-81a0-4105-b0b6-bd71a0f5088e": {
+          "type": "announcement",
+          "settings": {
+            "text": "优惠：这些商品有10%折扣",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement",
+        "32efb124-df95-4780-ac0e-653472afd0a2",
+        "5626b221-81a0-4105-b0b6-bd71a0f5088e"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "top-center",
+        "menu": "",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "none",
+        "show_line_separator": false,
+        "color_scheme": "background-1",
+        "menu_color_scheme": "background-1",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "b3705aed-52b5-494d-903f-4d3ac02766d6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "b3705aed-52b5-494d-903f-4d3ac02766d6"
+  ]
+}
